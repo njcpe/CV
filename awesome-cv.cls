@@ -266,6 +266,8 @@
 \newcommand*{\letternamestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
+\newcommand*{\graduateheader}{\begin{tabular}{l}\hspace{-8 pt}\subsectionstyle{Graduate}\end{tabular}\vspace{-6 pt}}
+\newcommand*{\ugradheader}{\begin{tabular}{l}\hspace{-8 pt}\subsectionstyle{Undergraduate}\end{tabular}\vspace{-6 pt}}
 
 %-------------------------------------------------------------------------------
 %                Commands for personal information
@@ -586,8 +588,9 @@
 }
 
 % Define an environment for cvhonor
-\newenvironment{cvhonors}{
-  \begin{center}
+\newenvironment{cvhonors}{  
+  
+  \begin{center}  
     \setlength\tabcolsep{0pt}
     \setlength{\extrarowheight}{0pt}
     \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l L{13.0cm} R{2.5cm}}

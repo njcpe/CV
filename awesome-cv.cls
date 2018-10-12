@@ -607,6 +607,21 @@
 }
 
 % Define an environment for cvskill
+\newenvironment{cvresearchinterests}{
+  \begin{center}
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} c c c c c}
+}{
+    \end{tabular*}
+  \end{center}
+}
+% Define a line of cv information(skill)
+% Usage: \cvskill{<type>}{<skillset>}
+\newcommand*{\cvresearchinterest}[4]{
+	{} & {} & \skillsetstyle{\textbf{#1}} {\cdotp} \skillsetstyle{\textbf{#2}} {\cdotp} \skillsetstyle{\textbf{#3}} {\cdotp} \skillsetstyle{\textbf{#4}} & {} & {}
+  \\
+}
+
+% Define an environment for cvskill
 \newenvironment{cvskills}{
   \begin{center}
     \setlength\tabcolsep{1ex}
@@ -622,6 +637,7 @@
 	\skilltypestyle{#1} & \skillsetstyle{#2} 
   \\
 }
+
 
 % Define an environment for cvitems(for cventry)
 \newenvironment{cvitems}{

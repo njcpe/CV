@@ -266,8 +266,8 @@
 \newcommand*{\letternamestyle}[1]{{\fontsize{10pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
 \newcommand*{\letterenclosurestyle}[1]{{\fontsize{10pt}{1em}\bodyfontlight\slshape\color{lighttext} #1}}
 
-\newcommand*{\graduateheader}{\begin{tabular}{l}\hspace{-8 pt}\subsectionstyle{Graduate}\end{tabular}\vspace{-6 pt}}
-\newcommand*{\ugradheader}{\begin{tabular}{l}\hspace{-8 pt}\subsectionstyle{Undergraduate}\end{tabular}\vspace{-6 pt}}
+\newcommand*{\graduateheader}{\vspace{-5 pt}\begin{tabular}{l}\hspace{-7 pt}\subsectionstyle{Graduate}\end{tabular}\vspace{-6 pt}}
+\newcommand*{\ugradheader}{\vspace{-5 pt}\begin{tabular}{l}\hspace{-7 pt}\subsectionstyle{Undergraduate}\end{tabular}\vspace{-6 pt}}
 
 %-------------------------------------------------------------------------------
 %                Commands for personal information
@@ -513,7 +513,7 @@
   \par\addvspace{1.5ex}
   \phantomsection{}
   \sectionstyle{#1}
-  \color{gray}\vhrulefill{0.9pt}
+  \color{gray}\vhrulefill{0.2pt}
   \par\nobreak\addvspace{1ex}
 }
 

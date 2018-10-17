@@ -17,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Configuration
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Themes: Awesome-CV
+%%% Themes: Awesome-CV 
 \documentclass[11pt, a4paper]{awesome-cv}
 
 %%% Override a directory location for fonts(default: 'fonts/')
@@ -25,7 +25,7 @@
 
 %%% Configure a directory location for sections
 \newcommand*{\sectiondir}{resume/}
-
+ 
 %%% Override color
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
@@ -42,52 +42,54 @@
 %%% Override a separator for social informations in header(default: ' | ')
 \headersocialsep[\quad\textbar\quad]
 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     3rd party packages
+%     3rd party packages  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Needed to divide into several files
+%%% Needed to divide into several files 
 \usepackage{import}
-
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Personal Data
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%% Essentials
+%%% Essentials 
 \name{Noah W.}{Johnson}
-\mobile{(567) 686-8151} 
+\mobile{(567) 686-8151}
 %%% Social
-\email{noah\_johnson@uri.edu}
-\homepage{njohnsoncpe.github.io}
+\email{noah\_johnson@uri.edu} 
+\homepage{njohnsoncpe.github.io} 
 \linkedin{njohnsoncpe}
-\github{njohnsoncpe}
+\github{njohnsoncpe} 
 %%% Optionals
 \position{Graduate Research Assistant{\enskip\cdotp\enskip}Teaching Assistant{\enskip\cdotp\enskip}Undergraduate Lab Coordinator}
-% \position{References Available upon Request}
+% \position{References Available upon Request} 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Content
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%% Make a footer for CV with three arguments(<left>, <center>, <right>)
 \makecvfooter
   {\today}
   {Noah W. Johnson~~~·~~~Curriculum Vitae}
   {\thepage}
 
+
 \begin{document}
+
+
 %%% Make a header for CV with personal data
 \makecvheader
-
 %%% Import contents
 \import{\sectiondir}{research_interests.tex}
 \import{\sectiondir}{education.tex}
 \import{\sectiondir}{honors.tex}
 \import{\sectiondir}{experience.tex}
-% \import{\sectiondir}{extracurricular.tex}
 \newpage
 \import{\sectiondir}{project_experience.tex}
+\import{\sectiondir}{teaching_experience.tex}
+\import{\sectiondir}{poster_sessions.tex}
 \import{\sectiondir}{skills.tex}
-
-% \import{\sectiondir}{writing.tex}
 % \import{\sectiondir}{committees.tex}
+
 
 \end{document}

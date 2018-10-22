@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.12)  18 OCT 2018 20:40
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015/Debian) (preloaded format=xelatex 2018.10.12)  22 OCT 2018 16:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -727,31 +727,22 @@ LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <9> not avail
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on input line 9.
 LaTeX Font Info:    Font shape `EU1/SourceSansPro(2)/m/sl' in size <8> not available
 (Font)              Font shape `EU1/SourceSansPro(2)/m/it' tried instead on input line 9.
-) (./resume/honors.tex) (./resume/experience.tex
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 9.00014pt on input line 13.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 13.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 5.00008pt on input line 13.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.99986pt on input line 13.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 13.
-LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 4.99992pt on input line 13.
-) [1
+) (./resume/honors.tex) (./resume/experience.tex) [1
 
-] (./resume/project_experience.tex) (./resume/teaching_experience.tex) (./resume/poster_sessions.tex
+] (./resume/poster_sessions.tex
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 13.
+(Font)              scaled to size 9.00014pt on input line 15.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 7.0001pt on input line 13.
+(Font)              scaled to size 6.00009pt on input line 15.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(1)/m/n' will be
+(Font)              scaled to size 5.00008pt on input line 15.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 13.
+(Font)              scaled to size 8.99986pt on input line 15.
 LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.9999pt on input line 13.
-) (./resume/skills.tex
+(Font)              scaled to size 5.99991pt on input line 15.
+LaTeX Font Info:    Font shape `EU1/latinmodern-math.otf(2)/m/n' will be
+(Font)              scaled to size 4.99992pt on input line 15.
+) (./resume/teaching_experience.tex) (./resume/skills.tex
 Overfull \hbox (49.1033pt too wide) in alignment at lines 2--14
 [] [] 
  []
@@ -765,12 +756,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 95.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 95.
  ) 
 Here is how much of TeX's memory you used:
- 27922 strings out of 493638
- 483675 string characters out of 6146795
- 603432 words of memory out of 5000000
- 31025 multiletter control sequences out of 15000+600000
- 8200 words of font info for 93 fonts, out of 8000000 for 9000
+ 27907 strings out of 493638
+ 482958 string characters out of 6146795
+ 601432 words of memory out of 5000000
+ 31019 multiletter control sequences out of 15000+600000
+ 7810 words of font info for 87 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 53i,11n,68p,10408b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 53i,11n,68p,10408b,440s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on resume.pdf (2 pages).
